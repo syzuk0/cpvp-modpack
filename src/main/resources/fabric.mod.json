@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cpvpbw",
+  "version": "${version}",
+  "name": "CPvP Black & White",
+  "description": "A mod pack focused on Capture the Flag PvP gameplay with custom textures and sounds",
+  "authors": [
+    "Angel"
+  ],
+  "contact": {
+    "homepage": "https://github.com/syzuk0/cpvp-modpack",
+    "sources": "https://github.com/syzuk0/cpvp-modpack",
+    "issues": "https://github.com/syzuk0/cpvp-modpack/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.angel.cpvpbw.CpvpBlackWhite"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.20"
+  }
+}
